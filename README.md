@@ -26,4 +26,13 @@
       Etant donné que je suis sur la fenêtre de connexion
       Lorsque je rentre mes identifiants de connexions
       Alors une pop-up 'connecté' apparait
-    
+  
+  - Scenario : Passer la validation
+      Etant donné que j'ai entrer mes identifiants et que je suis connécté
+      Lorsque que je re-coche  'je certifie être majeur' & que je clique sur 'Valider mon panier'
+      Alors j'atteris sur la page de choix de mon mode de livraison
+      
+  - Scenario : Choix du mode de retrait
+      Etant donné que j'ai choisi mon mode de retrait 'Click & Collect'
+      Lorsque je rentre les informations demandé & que je clique sur 'Valider mon panier'
+      Alors j'atteris sur la page de mode de paiment 
