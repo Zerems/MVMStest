@@ -1,0 +1,26 @@
+{
+  "name": "MVMStest",
+  "version": "1.0.0",
+  "description": "Test parcours achat MVMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerems/MVMStest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zerems/MVMStest/issues"
+  },
+  "homepage": "https://github.com/Zerems/MVMStest#readme",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  },
+  "dependencies": {
+    "mochawesome": "^6.2.2"
+  }
+}
